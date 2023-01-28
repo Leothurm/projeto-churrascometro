@@ -46,3 +46,29 @@ button:hover{
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.685);
 }
+
+#resultado{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    gap: 5px;
+    padding: 2px 10px 10px 10px;
+
+
+}
+
+h2{
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    display: block;
+}
+
+p{
+    font-weight: 700;
+}
